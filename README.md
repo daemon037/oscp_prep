@@ -11,6 +11,6 @@ Below are some useful nmap scan commands<br>
 **Default Scripts, enumerate version,sync scan, all TCP+UDP ports**<br>
   nmap -sU -sS -p- -A <target><br>
 **Scan with Scripts**<br>
-  nmap -sV --script=ftp* <target>
+  nmap -sV --script=ftp\* <target>
 ** scan targets from text file **
   nmap -iL list-of-ips.txt
