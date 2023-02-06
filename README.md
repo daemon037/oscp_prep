@@ -1,13 +1,13 @@
 ### oscp_prep
 
 ## Enumeration 
-# 1. Port scan
-Below are some useful nmap scan commands\n
-**Default Scripts, enumerate version, output in 3 format files**
-Nmap –sC –sV –oA <output_file> <target>
-**Default Scripts, enumerate version,sync scan, all TCP ports**\n
-nmap -sS -p- -A <target>
-**Default Scripts, enumerate version,sync scan, all TCP+UDP ports**
-nmap -sU -sS -p- -A <target>
+# 1. Port scan<br>
+Below are some useful nmap scan commands<br>
+**Default Scripts, enumerate version, output in 3 format files**<br>
+Nmap –sC –sV –oA <output_file> <target><br>
+**Default Scripts, enumerate version,sync scan, all TCP ports**\n<br>
+nmap -sS -p- -A <target><br>
+**Default Scripts, enumerate version,sync scan, all TCP+UDP ports**<br>
+nmap -sU -sS -p- -A <target><br>
 
 
